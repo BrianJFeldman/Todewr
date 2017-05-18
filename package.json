@@ -4,7 +4,7 @@
   "description": "Todewr",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./server/server.js",
+    "start": "node ./server/server.js",
     "test": "mocha-phantomjs --web-security=false ./test/test.html"
   },
   "author": "",
