@@ -1,0 +1,121 @@
+h1{
+  font-family: SignPainter;
+  font-size: 60pt;
+  padding: 0;
+  font-weight: 500;
+}
+#logo{
+  font-size: 90pt;
+  margin:0 0 0px;
+  color: goldenrod;
+}
+.logo1{
+  color:goldenrod;
+  font-weight: 500;
+  font-size: bigger;
+  font-family: SignPainter;
+}
+.logo2{
+  color:goldenrod;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: SignPainter;
+}
+h2{
+  margin: 1px 0;
+  font-size: 20pt;
+  font-family: Avenir;
+}
+ul{
+  display: inline-block;
+  text-align: left;
+}
+.started{
+  font-size:smaller;
+}
+md-input-container{
+  max-width: 20%;
+  margin: 0 auto;
+}
+#commandsP{
+  margin:0 auto;
+  padding: 0;
+}
+li{
+  margin: 10px 0 10px;
+}
+._md-nav-bar-list{
+  text-align: left;
+  text-decoration: none;
+  display: inline;
+  list-style-type: none;
+  margin:5px 0;
+}
+.md-nav-item{
+  display: inline;
+}
+.container {
+  text-align: center;
+}
+p{
+  text-align: center;
+  margin: 1px auto 10px;
+  max-width: 50%;
+}
+span{
+  font-size: bigger;
+  font-weight: 800;
+}
+.usernames{
+  font-weight: 800;
+}
+a{
+  margin: 0 10px 0;
+  text-decoration: none;
+}
+.md-button {
+  padding: 0 6px 0 6px;
+  margin: 6px 8px 6px 8px;
+  min-width: 88px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration:none;
+  border: none;
+  outline: none;
+}
+.md-display-2{
+  margin: 0;
+}
+.md-tab{
+  text-align: center;
+}
+.tabsdemoDynamicHeight md-content {
+  background-color: white !important; }
+  .tabsdemoDynamicHeight md-content md-tabs {
+    background: white;
+    border: none;}
+    .tabsdemoDynamicHeight md-content md-tabs md-tabs-canvas {
+      background: white; }
+  .tabsdemoDynamicHeight md-content h1:first-child {
+    margin-top: 0; }
+
+md-tabs[md-border-bottom] md-tabs-wrapper {
+  border: none;
+}
+md-list-item.md-2-line .md-list-item-text{
+  padding: 10px 0 0 0;
+}
+md-list-item.md-2-line .md-list-item-text p{
+  margin:0 auto 0;
+  padding: 0;
+}
+md-list-item.md-2-line .md-list-item-text p span{
+font-weight: 800;
+font-size: 12pt;
+}
+.commands{
+  font-weight: bold;
+  color: darkgoldenrod
+}
