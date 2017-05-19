@@ -14,7 +14,7 @@ angular
       }
     newObj.sendMessage = function(inputObj,cb) {
       console.log(inputObj)
-    $http.get('http://localhost:3000/getsms', inputObj)
+    $http.get('https://afternoon-reaches-24362.herokuapp.com/getsms', inputObj)
      .then(function(response) {
        console.log(response);
        cb(response);
