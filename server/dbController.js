@@ -1,6 +1,6 @@
 const User = require('./dbModel');
 const creds = require('./creds');
-const client = require('twilio')(creds[1], creds[2]);
+const client = require('twilio')(creds.tName, creds.tPW);
 
 function addItem(req, res, next) {
     User.findOne({ number: req.body.From }, (err, user) => {
@@ -253,8 +253,9 @@ function removeList(req, res, next) {
 const DBController = {
     ParseText(req, res, next) {
         let splitted = req.body.Body.toLowerCase().split(/\s+/);
+        //if the first 3 words are create new list
         if (JSON.stringify(splitted.slice(0, 3)) === JSON.stringify(["create", "new", "list"])) {
-            //create new list
+            // then create a new list
             console.log('creating new list');
             newList(req, res, next);
         }
