@@ -1,10 +1,10 @@
 const app = angular
   .module('myApp', [
     'ngRoute',
-    'Codesmith.HomeController',
-    'Codesmith.ListController',
-    'Codesmith.UserFactory',
-    'Codesmith.RequestFactory',
+    'HomeController',
+    'ListController',
+    // 'UserFactory',
+    'RequestFactory',
     'ngMaterial',
     'ngAria'
   ]);

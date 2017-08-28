@@ -1,7 +1,8 @@
+//WIP for web-based list look-up
+
 angular
-  .module('Codesmith.ListController', ['ngRoute'])
+  .module('ListController', ['ngRoute'])
   .controller('ListController', ListController);
 
-function ListController($scope,UserFactory) {
-  console.log($scope)
+function ListController($scope) {
 }

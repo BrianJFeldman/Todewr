@@ -1,5 +1,6 @@
 const User = require('./dbModel');
-const client = require('twilio')('AC5d6dabce4797b65a544edc775b8858bb', 'c0a502a6ef22603ce2c3d5cc18dba45f');
+const creds = require('./creds');
+const client = require('twilio')(creds[1], creds[2]);
 
 function addItem(req, res, next) {
     User.findOne({ number: req.body.From }, (err, user) => {

@@ -1,5 +1,5 @@
 angular
-  .module('Codesmith.HomeController', ['ngRoute'])
+  .module('HomeController', ['ngRoute'])
   .controller('HomeController', HomeController);
 
 function HomeController($scope, $interval,$location, RequestFactory) {

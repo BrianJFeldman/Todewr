@@ -4,7 +4,7 @@
   "description": "Todewr",
   "main": "index.js",
   "scripts": {
-    "start": "node ./server/server.js",
+    "start": "nodemon ./server/server.js",
     "test": "mocha-phantomjs --web-security=false ./test/test.html"
   },
   "author": "",
@@ -23,7 +23,6 @@
     "mocha": "^2.2.5",
     "mocha-phantomjs": "^4.0.1",
     "mongoose": "^4.9.9",
-    "nodemon": "^1.9.2",
     "twilio": "^3.0.0"
   },
   "engines": {
