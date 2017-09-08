@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const creds = require('./creds');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const creds = require('./creds');
 const client = require('twilio')(creds.tName, creds.tPW);
 const dbController = require('./dbController');
 
