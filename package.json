@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./server/server.js",
-    //to-do: testing
     "test": "mocha-phantomjs --web-security=false ./test/test.html"
   },
   "author": "",
