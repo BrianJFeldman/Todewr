@@ -95,15 +95,18 @@ a{
   text-align: center;
 }
 .tabsdemoDynamicHeight md-content {
-  background-color: white !important; }
-  .tabsdemoDynamicHeight md-content md-tabs {
-    background: white;
-    border: none;}
-    .tabsdemoDynamicHeight md-content md-tabs md-tabs-canvas {
-      background: white; }
-  .tabsdemoDynamicHeight md-content h1:first-child {
-    margin-top: 0; }
-
+  background-color: white !important; 
+}
+.tabsdemoDynamicHeight md-content md-tabs {
+  background: white;
+  border: none;
+}
+.tabsdemoDynamicHeight md-content md-tabs md-tabs-canvas {
+  background: white;
+}  
+.tabsdemoDynamicHeight md-content h1:first-child {
+    margin-top: 0; 
+}
 md-tabs[md-border-bottom] md-tabs-wrapper {
   border: none;
 }
@@ -121,4 +124,8 @@ font-size: 12pt;
 .commands{
   font-weight: bold;
   color: darkgoldenrod
+}
+md-tabs.md-default-theme md-ink-bar, md-tabs md-ink-bar {
+    color: goldenrod !important;
+    background-color:goldenrod !important;
 }

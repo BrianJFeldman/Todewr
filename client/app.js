@@ -3,7 +3,6 @@ const app = angular
     'ngRoute',
     'HomeController',
     'ListController',
-    // 'UserFactory',
     'RequestFactory',
     'ngMaterial',
     'ngAria'
@@ -18,8 +17,8 @@ function configFunction($routeProvider, $locationProvider) {
       templateUrl: './partials/home.html',
       controller: 'HomeController'
     })
-    .when('/lists',{
+    .when('/lists', {
       templateUrl: './partials/lists.html',
-      controller:'ListController'
+      controller: 'ListController'
     });
 }
